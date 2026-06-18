@@ -1,0 +1,5 @@
+export {default as Navbar} from "../../ui/navbar"
+export { default as HeroSection} from "./heroSection"
+export { default as GrowthSection} from "./growthSection"
+export { default as StorySection} from "./userStoriesSection"
+export {default as ReviewSection} from "./reviewSection"
