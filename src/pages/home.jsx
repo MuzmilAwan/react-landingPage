@@ -3,6 +3,7 @@ import {
     HeroSection,
     GrowthSection,
     StorySection,
+    ReviewSection,
 } from "@sections";
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
             <HeroSection />
             <GrowthSection />
             <StorySection />
+            <ReviewSection />
         
         </>
     );
