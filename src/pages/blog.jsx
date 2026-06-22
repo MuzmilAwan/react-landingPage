@@ -26,11 +26,11 @@ export default function Blog() {
         <div className='p-4 border-[1px] border-text-dark rounded-[8px] '>
           <div><strong>{userData.name} Profile Info</strong></div>
           <hr />
-          <div>ID: {userData.id}</div>
-          <div>Name: {userData.name}</div>
-          <div>Email: {userData.email}</div>
-          <div>Phone: {userData.phone}</div>
-          <div>City: {userData.address?.city}</div>
+          <p>ID: {userData.id}</p>
+          <p>Name: {userData.name}</p>
+          <p>Email: {userData.email}</p>
+          <p>Phone: {userData.phone}</p>
+          <p>City: {userData.address?.city}</p>
         </div>
       )}
     </div>
