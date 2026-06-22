@@ -10,7 +10,7 @@ export default function HeroSection() {
 
                 <div className="w-full max-w-[391px] sm:max-w-[550px] md:max-w-[700px] flex items-center justify-center gap-2 md:gap-4">
 
-                    <input type="text" placeholder="Enter your name" className="flex-1 min-w-0 h-[48px] md:h-[64px] py-[13px] px-4 sm:px-6 border-[1px] border-border rounded-[19px] md:rounded-[26px]" />
+                    <input type="text" placeholder="Enter your name" className="flex-1 min-w-0 h-[48px] md:h-[64px] py-[13px] px-4 sm:px-6 border-[1px] border-border rounded-[19px] md:rounded-[26px] select-none cursor-not-allowed pointer-events-none " readOnly/>
 
                     <button className="shrink-0 w-[110px] sm:w-[132px] md:w-[208px] h-[48px] md:h-[64px] bg-btn text-bg-primary font-medium md:font-bold text-sm sm:text-base md:text-xl leading-[24px] tracking-[0.5px] border-[2px] rounded-[19px] md:rounded-[26px] p-2 md:py-4 md:px-5 cursor-pointer"> Start Now </button>
                 </div>
