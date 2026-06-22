@@ -31,7 +31,11 @@ export default function Blog() {
           <p>Email: {userData.email}</p>
           <p>Phone: {userData.phone}</p>
           <p>City: {userData.address?.city}</p>
+
+    
         </div>
+
+        
       )}
     </div>
   );
