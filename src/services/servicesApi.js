@@ -17,6 +17,6 @@ export default async function storeUserData() {
     setUserData(data);
   } catch (error) {
     setError(error.message);
-    useAppStore.setState({ isLoading: false });
+    useStore.setState({ isLoading: false });
   }
 }
