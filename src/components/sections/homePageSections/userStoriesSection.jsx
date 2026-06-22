@@ -60,7 +60,7 @@ export default function StorySection() {
                         </div>
 
 
-                        <div className="w-full  snap-center sm:w-[266px] sm:shrink sm:h-[300px] rounded-[10px] bg-bg-primary shadow-md flex flex-col">
+                        <div className="w-full  snap-center sm:w-[266px] sm:shrink sm:h-[300px] rounded-[10px] bg-bg-primary shadow-md flex flex-col mb-4">
                             <img src="/homePage/storiesSection/story_2.webp" alt="flower frame 2 image" className="w-full h-[220px] rounded-t-[10px]" />
 
                             <div className="w-full h-[80px] flex justify-start p-4 gap-4">
@@ -72,7 +72,7 @@ export default function StorySection() {
                             </div>
                         </div>
 
-                        <div className="w-full  snap-center sm:w-[266px] sm:shrink sm:h-[300px] rounded-[10px] bg-bg-primary shadow-md flex flex-col">
+                        <div className="w-full  snap-center sm:w-[266px] sm:shrink sm:h-[300px] rounded-[10px] bg-bg-primary shadow-md flex flex-col mb-4">
                             <img src="/homePage/storiesSection/story_3.webp" alt="splash frame image" className="w-full h-[220px] rounded-t-[10px]" />
 
                             <div className="w-full h-[80px] flex justify-start p-4 gap-4">
@@ -84,7 +84,7 @@ export default function StorySection() {
                             </div>
                         </div>
 
-                        <div className="w-full  snap-center sm:w-[266px] sm:shrink sm:h-[300px] rounded-[10px] bg-bg-primary shadow-md flex flex-col">
+                        <div className="w-full  snap-center sm:w-[266px] sm:shrink sm:h-[300px] rounded-[10px] bg-bg-primary shadow-md flex flex-col mb-4">
                             <img src="/homePage/storiesSection/story_4.webp" alt="colorful face frame image" className="w-full h-[220px] rounded-t-[10px]" />
 
                             <div className="w-full h-[80px] flex justify-start p-4 gap-4">
