@@ -9,9 +9,15 @@
   --color-btn : #C026D3;
   --color-bg-primary : #FFFFFF;
   --color-bg-secondary: #FDF4FF;
-  --color-bg-elmentary: #F1F5F9;
+  --color-bgblue: #F1F5F9; 
   --color-border: #CBD5E1;
 
+}
+
+@theme {
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 900px;
+  --breakpoint-desktop: 1200px;
 }
 
 body {

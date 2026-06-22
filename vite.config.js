@@ -12,7 +12,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      "@ui": path.resolve(__dirname, "./src/components/ui"),
       "@sections": path.resolve(__dirname, "./src/components/sections/homePageSections"),
     },
   },

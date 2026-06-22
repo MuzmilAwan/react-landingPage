@@ -5,11 +5,11 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="md:w-full md:h-96px w-393px h-67px bg-bg-primary md:py-[24px] md:px-[80px] p-4 overflow-hidden flex justify-between">
+    <nav className="max-w-[1440px] min-w-[300px] mx-auto bg-bg-primary px-4 py-3 sm:px-6 md:px-10 md:py-5 lg:px-16 lg:py-6 xl:px-20 overflow-hidden flex justify-between">
       <div className="w-full flex items-center justify-between ">
 
-        <div className="max-w-108px h-35px flex items-center">
-          <img src="/homePage/navbar/logo.svg" alt="Breakio logo mark" />
+        <div className="w-[90px] sm:w-[108px] h-auto flex items-center">
+          <img src="/homePage/navbar/logo.svg" alt="Breakio logo mark image" className="w-full h-full" />
         </div>
 
         <div className="w-[547px] h-[48px] md:flex hidden md:items-center justify-center  ">
@@ -39,14 +39,13 @@ export default function Navbar() {
           </ul>
 
           <div className="w-[132px] h-[48px]">
-            <button className="w-[132px] h-[48px] bg-btn text-bg-primary font-medium text-base leading-[24px] tracking-[0.5px] rounded-[18px] p-[12px]"> Start Now </button>
+            <button className="w-[132px] h-[48px] bg-btn text-bg-primary font-medium text-base leading-[24px] tracking-[0.5px] rounded-[18px] p-[12px] cursor-pointer"> Start Now </button>
           </div>
 
         </div>
 
-        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='w-24px h-24px md:hidden flex' aria-label="Toggle menu" aria-expanded={isMenuOpen}
-        >
-          <img src="/homePage/navbar/handBurg.svg" alt="" className="w-full h-full pointer-events-none" />
+        <button onClick={() => setIsMenuOpen(!isMenuOpen)} className='w-6 h-6 md:hidden flex items-center justify-center' aria-label="Toggle menu" aria-expanded={isMenuOpen}>
+          <img src="/homePage/navbar/hambBurg.svg" alt="hambburg icon" className="w-full h-full" />
         </button>
 
 
@@ -54,6 +53,7 @@ export default function Navbar() {
 
       {isMenuOpen && (
         <div className="md:hidden fixed left-0 right-0 top-[60px] bg-bg-primary z-50 ">
+          
           <ul className="w-full flex flex-col items-start gap-4 p-6">
 
             <li>
@@ -76,7 +76,7 @@ export default function Navbar() {
               <NavLink onClick={() => setIsMenuOpen(false)} to="/login" className="  text-text-dark font-medium text-base leading-[24px] tracking-[0.5px]"> Log In </NavLink>
             </li>
 
-            
+
 
           </ul>
         </div>
@@ -85,4 +85,3 @@ export default function Navbar() {
     </nav>
   );
 };
-
